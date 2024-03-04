@@ -5,12 +5,12 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/avouacr/application-deployment.git
+    repoURL: https://github.com/<your_github_username>/application-deployment.git
     targetRevision: main
     path: deployment
   destination:
     server: https://kubernetes.default.svc
-    namespace: user-avouacr
+    namespace: user-<your_sspcloud_username>
   syncPolicy:
     automated:
       selfHeal: true
