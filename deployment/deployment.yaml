@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: titanic
-        image: <dockerhub_username>/application-correction:v1.0.0
+        image: linogaliana/application-correction:v1.0.0
         ports:
         - containerPort: 5000
